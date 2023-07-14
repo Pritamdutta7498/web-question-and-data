@@ -1,0 +1,92 @@
+=>React-Informatin-In-Notes:
+=> jsx file create korar jonno cmd: npx create-react-app fileName
+
+=>But this work file is JSX:
+
+=>similar in look, different in data - components,container components, stand alone component
+=>array er element k .join(' '); kore alada kora jai.
+=>react er js file run korar jonno vs terminal e npm start dithe hobe
+
+=>jsx e valid js er jekono expression kora jai
+=>jsx e doller $ dithe hoy na only {var}
+=>inline css style er jonno {{css style, css syle}} eibhabe korthe hoy
+=>jsx e function er first word charter big dithe hoy -- Person(), Myfunction
+and call koara jonno jekane full file return kore sekane <Person></Person> tag diye call korte hoy
+=>return e multiline korar jonno wrapping korte hoy setar jonno retrun e <div></div> diye korte hoy but alignment tik korar jonno eibhabe kote hoy (<div></div>)
+=>function e props diye simmilar in look, different in data kora jai---compo er modded eibhabe data patano jai
+=>state change hothe pare
+
+=>fetch use korthe hole or api teke data load korthe hole eita must korhte hoy--
+  const [users, setUsers] = useState([]);
+  useEffect(() =>{
+  }, []);
+
+=>React core topic:
+	1.JavaScript XML(JSX)
+	2.Componenet
+	3.Props
+	4.useState
+	5.Event Handlers
+	6.useEffect
+=>
+=>file template use korar jonno rsc diye enter dithe hobe and app.js file e seta add korte hobe
+=>warning remove korar jonno map er ekene key set korar somoy uniqe ekta kicu dithe hobe--- key={country.cca3}
+=>useState() -eta ekta dispatch function
+=>Data send/ patanor jonno props use korthe hoy
+=>single export er jonno: export default add;
+=>miltple export er jonno: export {add, multiply}
+=>
+=>website e data generate korar kicu rules ace,
+1.nije object creat kore hard code diye
+2. json generator diye kore or free onlie api use kore
+3.nije json file create kore sekan teke fetch kore(💥best)
+=>kono eventHandler k parameter soho call kora somoy eibhabe use korthe hoy () =>addToCart(id) use korte hoy
+=>onClick={() =>addToCart(props.product)}
+
+=>localStorage clear na!
+=>react behaind the seen: jebahab element create kore: 
+return React.createElement("h1", {}, "Hello");
+
+=>component k call kora jai dui bhabe:
+1st:<Person></Person>
+2nd: <Person />
+
+=>ctrl + mouse click dile function jekan theke start hoyse se file e chole jai
+
+=>kono obj k map kore seta reference akare na patiye spread akare o pata jai: <Card {...item}></Card> r oidik teke sudu props dilei hoye jai seketre props.item or onno kicu diye destructure korthe hoy na!
+
+=>mapping e single line korle () first bracket diye korle r return korth hoy na but multiline korle { retrun} korthe hoy!
+
+=>data load kora hoy compo er modde and return er aghe!
+=>
+=>parent class e position:absulate and child class e position relative and bottom:0 dile card er bottom btn equal hoye jai
+=>
+=>props diye jekono kicu patano jai like: function object etc
+=>
+=>react e bootstrap use korte gele tokon card e img tag ase setar ending use korte hoy..nahole error show kore
+=>
+=>react-bootstrap e className er poriborthe varient use kore!
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>
+=>

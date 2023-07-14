@@ -1,0 +1,11 @@
+=>React + firebase + tailwind + daisyUi
+1.npm create vite@latest name-of-your-project -- --template react
+2.cd <your new project directory>
+3.npm install react-router-dom
+4.npm i firebase
+* npm install react-bootstrap bootstrap
+* import 'bootstrap/dist/css/bootstrap.min.css'; * add this link in main.jsx file
+
+
+
+npm run dev

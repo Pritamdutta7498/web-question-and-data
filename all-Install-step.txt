@@ -1,0 +1,101 @@
+=>--------react-----------------<=
+
+1.first go to the folder where you want to intall for this use>
+[ cd \nameOfFolder cd nameOfFolder]
+ and if you want to go back type>
+[ cd .. ]
+2.npx create-react-app react-core-concept[fileName]
+3.copy the cd name file and paste it
+
+4.(for-react-router): npm install react-router-dom localforage match-sorter sort-by
+
+4.npm start
+5.code. [for open project with vs code]
+6.npm run dev or [you can run npm in vs code open project terminal ]
+
+
+
+=>--------vite-react-----------<=
+
+1.first go to the folder where you want to intall for this use>
+[ cd \nameOfFolder cd nameOfFolder]
+ and if you want to go back type>
+[ cd .. ]
+2.npm create vite@latest
+3.write a project name-- anything you want ex: 
+[ react-core-concept ]
+4.select Framwork>> React
+5.Select variant>> JavaScript
+6.copy the cd name file and paste it
+7.npm install
+8.code. [for open project with vs code]
+9.npm run dev or [you can run npm in vs code open project terminal ]
+10.Copy paste the localhost link in chrome
+
+=>-------react with bootstrap--------<=
+
+1.first go to the folder where you want to intall for this use>
+[ cd \nameOfFolder cd nameOfFolder]
+ and if you want to go back type>
+[ cd .. ]
+2.npm create vite react-with-bootstrap -- --template react
+3.cd react-with-bootstrap
+4.npm i
+5.code .
+5.npm run dev
+6.bangla system: bootstrap er css and js cdn link react er html file e add kore niley hoy
+othoba 7 no use korteh hobe:
+
+7.npm install react-bootstrap bootstrap
+3.main.jsx file e :
+ import 'bootstrap/dist/css/bootstrap.min.css';
+eta bosai dithe hobe
+
+=>-------react with tailwind--------<=
+
+1.first go to the folder where you want to intall for this use>
+[ cd \nameOfFolder cd nameOfFolder]
+ and if you want to go back type>
+[ cd .. ]
+2.npm create vite react-with-tail -- --template react
+3.cd react-with-tail
+4.npm i
+5.code .
+5.npm run dev
+6.vs code er project open hole terminal on kore sekane
+7.npm install -D tailwindcss postcss autoprefixer
+8.npx tailwindcss init -p
+9.tailwind.config.js file e content:[], er change kore eta use korthe hobe;
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ], 
+10. index.css file e ekdom upore eigula bosathe hobe:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+=>-------Create server--------<=
+1.mkdir folder
+2.cd folder
+3.npm init -y
+4.create a folder in vs code index.js
+5.npm i express
+6.npm install -g nodemon
+7.nodemon index.js diye start korte hobe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+----------vercel----------
+1.go to the cmd and open server
+2. npm i -g vercel
+4. vercel
+5.signIn with github
+6.Question=> set up and deploy? y
+7. Which scope do you want to deploy to? enter
+8. Link to existing project? n
+9. What’s your project’s name? enter
+10.In which directory is your code located? enter
+11.Want to modify these settings? n
+12.create a vercel.json file in your current server->
+13. 
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "index.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "index.js"
+        }
+    ]
+}
+14.now write =>  vercel
+15.select the preview link: and paste in browser
+--------------------------------------------
+---------firebase deploy------------
+1.first open project in vs code and replace the local server link with vercel preview deploy link
+2.go the firebase project and build => hoisting=>get started
+3. go to cmd and type: firebase init
+4.procced? y
+5. go to this command with down arrow and select with space then enter: Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys
+6.Use an existing project? enter
+7.select the project with up an down arrow
+8.What do you want to use as your public directory? (public) => replace the public to dist
+9. Configure as a single-page app? y
+10.Set up automatic builds and deploys with GitHub? n
+11.npm run build
+12.firebase deploy
+13. copy the hosting url:
+14.if you agin edit the project you must build it agin and deploy again!
+
+
+
+
+
+
+
+
+
+}

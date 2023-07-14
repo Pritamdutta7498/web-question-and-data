@@ -1,0 +1,4 @@
+mongod --dpath "C:\Program Files\MongoDB\Server\6.4\data" --logpath "C:\Program Files\MongoDB\Server\6.4\bin\mongod.log" --install --serviceName "MongoDB"
+
+
+const uri = "mongodb://127.0.0.1:27017";

@@ -1,0 +1,28 @@
+=>Assignment-7(Mandatory for assignment)
+----------------------------------------
+Mandatory videos and module : 39.6, 40,41, 42.6-9, 43 and last conceptual session
+You guys can skip: 39 module except 39.6 video, 42.1-5, and full 44 module
+
+=>Assignment-8(Mandatory for assignment)
+----------------------------------------
+
+Module 47: React Core Concepts, JSX, props, state
+Module 48: Simple React Rest Countries
+Module 49: (Conceptual) How React works and react project with vite
+Module 49.5: Modules and data storage Integration
+Module 51.5: Simple React Revision day
+Today's conceptual session is mandatory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
